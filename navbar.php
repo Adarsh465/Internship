@@ -16,7 +16,7 @@ echo '<nav class="navbar navbar-expand-lg navbar-dark bdr">
                 <a class="nav-link" aria-current="page" href="/practice/index.php">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/practice/latest.php">LATEST</a>
+                <a class="nav-link" href="/latest.php">LATEST</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/practice/helpdesk.php">HELPDESK</a>
