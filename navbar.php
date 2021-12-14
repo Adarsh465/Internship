@@ -6,7 +6,7 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin']==true){
 
 echo '<nav class="navbar navbar-expand-lg navbar-dark bdr">
         <div class="container-fluid">
-          <a class="navbar-brand" href="/practice/index.php">Covid-19</a>
+          <a class="navbar-brand" href="/index.php">Covid-19</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -32,7 +32,7 @@ echo '<nav class="navbar navbar-expand-lg navbar-dark bdr">
               <p class="me-3 pt-3" style="display: inline-block; color:yellow; font-size:1.2rem">HELP-LINE NO. -88888888888</p>
             </div>';
             if(!$loggedin){
-            echo '<a class="btn btn-outline-success me-2" href="/practice/login.php" role="button">Donate</a>
+            echo '<a class="btn btn-outline-success me-2" href="/login.php" role="button">Donate</a>
             <a class="btn btn-outline-success me-2" href="/login.php" role="button">LogIn</a>
             <a class="btn btn-outline-success" href="/signup.php" role="button">SignUp</a>';
             }
