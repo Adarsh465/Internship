@@ -13,13 +13,13 @@ echo '<nav class="navbar navbar-expand-lg navbar-dark bdr">
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="/practice/index.php">HOME</a>
+                <a class="nav-link" aria-current="page" href="/index.php">HOME</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/latest.php">LATEST</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/practice/helpdesk.php">HELPDESK</a>
+                <a class="nav-link" href="/helpdesk.php">HELPDESK</a>
               </li>
             </ul>
             <!--<form class="d-flex me-2" action="#login" method="post">
@@ -33,12 +33,12 @@ echo '<nav class="navbar navbar-expand-lg navbar-dark bdr">
             </div>';
             if(!$loggedin){
             echo '<a class="btn btn-outline-success me-2" href="/practice/login.php" role="button">Donate</a>
-            <a class="btn btn-outline-success me-2" href="/practice/login.php" role="button">LogIn</a>
-            <a class="btn btn-outline-success" href="/practice/signup.php" role="button">SignUp</a>';
+            <a class="btn btn-outline-success me-2" href="/login.php" role="button">LogIn</a>
+            <a class="btn btn-outline-success" href="/signup.php" role="button">SignUp</a>';
             }
             if($loggedin){
-             echo '<a class="btn btn-outline-success me-2" href="/practice/login.php" role="button">Donate</a>
-            <a class="btn btn-outline-danger me-2" href="/practice/logout.php" role="button">Logout</a>';
+             echo '<a class="btn btn-outline-success me-2" href="/login.php" role="button">Donate</a>
+            <a class="btn btn-outline-danger me-2" href="/logout.php" role="button">Logout</a>';
             }
             echo
           '</div>
