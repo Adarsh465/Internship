@@ -74,7 +74,7 @@ $Welcome = false;
     </div>
 
     <div class=" footer1">
-      <p class="pt-3" style="display: inline-block;">Designed by Adarsh Sharma</p>
+      <p class="pt-3" style="display: inline-block;">Designed By XYZ</p>
     </div>
    
       
