@@ -32,12 +32,12 @@ echo '<nav class="navbar navbar-expand-lg navbar-dark bdr">
               <p class="me-3 pt-3" style="display: inline-block; color:yellow; font-size:1.2rem">HELP-LINE NO. -88888888888</p>
             </div>';
             if(!$loggedin){
-            echo '<a class="btn btn-outline-success me-2" href="/login.php" role="button">Donate</a>
-            <a class="btn btn-outline-success me-2" href="/login.php" role="button">LogIn</a>
+            echo '<a class="btn btn-outline-success me-2" href="/donate.php" role="button">Donate</a>
+            <a class="btn btn-outline-success me-2" href="login.php" role="button">LogIn</a>
             <a class="btn btn-outline-success" href="/signup.php" role="button">SignUp</a>';
             }
             if($loggedin){
-             echo '<a class="btn btn-outline-success me-2" href="/login.php" role="button">Donate</a>
+             echo '<a class="btn btn-outline-success me-2" href="/donate.php" role="button">Donate</a>
             <a class="btn btn-outline-danger me-2" href="/logout.php" role="button">Logout</a>';
             }
             echo
